@@ -1,0 +1,94 @@
+.restaurant-img img{
+    height: 320px;
+    border-radius: 7px;
+}
+.restaurant-page-wrapper{
+    padding: 20px 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 12px 40px -16px rgba(72, 72, 72, 0.655);
+}
+.order-bill h3{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(125, 125, 125);
+}
+.restaurant-name{
+    color: #ff6000;
+    margin: 10px 0;
+}
+.categories{
+    border-bottom: 2px solid #bebebeb9;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+.category-btn{
+    border: 2px solid rgba(145, 145, 145, 0.487);
+    font-size: 19px;
+    margin-right: 20px;
+}
+.category-btn::first-letter{
+    text-transform: capitalize;
+}
+.restaurant-menu-item{
+    padding: 5px 0; 
+    margin-left: 20px;   
+}
+.menu-item{
+    box-shadow: 2px 12px 40px -16px rgba(72, 72, 72, 0.655);
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.title-and-price {
+    padding: 15px 10px;
+}
+.title{
+    font-size: 18px;
+}
+.title::first-letter{
+    text-transform: capitalize;
+}
+table tr td::first-letter{
+    text-transform: capitalize;
+}
+.price{
+    color: #ff6000;
+    font-weight: 600;
+    font-size: 20px;
+}
+.add-food-btn{
+    border: none;
+    background-color: #ff6000;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 9px;
+    float: right;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.bill-table{
+    overflow-y: scroll;
+    height: 240px;
+}
+.bill-table::-webkit-scrollbar{
+    display: none;
+}
+.bill-bottom div{
+    font-size: 19px;
+    font-weight: 600;
+}
+.order-btn{
+    background-color: #ff6000;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 8px 16px;
+}
+.order-addres-and-desc textarea{
+    width: 100%;
+    border: 1px solid #7e7e7e94;
+    border-radius: 5px;
+}

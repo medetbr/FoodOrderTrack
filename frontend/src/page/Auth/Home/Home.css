@@ -1,0 +1,56 @@
+.sidebar{
+    border-right: 5px solid rgb(225, 10, 10);
+    background-color: #FF6000;
+    box-shadow: 15px 19px 25px -7px rgba(187, 187, 187, 0.45);
+    min-width: 270px;
+    max-width: 270px;
+    color: #fff;
+    transition: all .3s;
+    z-index: 0;
+
+}
+.sidebar .profile{
+    margin: 20px 0 50px 0;
+}
+.content{
+    width: 80%;
+    padding: 0;
+    min-height: 100vh;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.sidebar ul li{
+    font-size: 20px;
+}
+.sidebar-list-icon{
+    padding-right: 10px;
+}
+.sidebar ul li a {
+    padding: 10px 0;
+    display: block;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.95);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+.sidebar ul li a:hover {
+    color: rgba(255, 255, 255, 0.768);
+}
+.restaurant-filter{
+    background-color: #ffffff;
+    box-shadow: 2px 12px 40px -16px rgba(72, 72, 72, 0.655);
+}
+.restaurant-filter div{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+.content section{
+    padding: 30px 20px;
+   
+}
+.sidebar .p-4{
+    position: sticky;
+    top: 0;
+}

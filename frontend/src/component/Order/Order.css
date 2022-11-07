@@ -1,0 +1,51 @@
+
+.order-cancel-btn{
+    background-color: #f64d4d;
+    color: #ffff;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.order-cancel-btn:hover{
+    background-color: #d32c2c;
+    color: #ffff;
+}
+.order-wrapper{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 2px 12px 40px -16px rgba(72, 72, 72, 0.655);
+    padding: 10px 0;
+}
+.order{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.order-image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    background: transparent;
+}
+.order-bill-top{
+    height: 100%;
+    overflow-y: scroll;
+    max-height: 225px;
+}
+.order-bill-total{
+    margin-left: 25px;
+    font-weight: 700;
+    color: rgb(75, 75, 75);
+}
+.order-bill-top::-webkit-scrollbar{
+    display: none;
+}
+.table thead{
+    position: sticky;
+    top: 0;
+    background-color: #ffff;
+}

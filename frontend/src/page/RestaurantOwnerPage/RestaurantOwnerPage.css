@@ -1,0 +1,59 @@
+.restaurant-owner-wrapper{
+    padding: 35px 40px;
+    width: 100%;
+}
+.restaurant-owner-top h3{
+    text-align: center;
+    border-bottom: 1px solid #b6b6b6b9;
+    color: #ff6000;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.restaurant-owner-top h3::first-letter{
+    text-transform: capitalize;    
+}
+.user-of-order span{
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.order-address p::first-letter, .order-description p::first-letter{
+    text-transform: capitalize;
+}
+.restaurant-statistics{
+    padding: 15px 0;
+}
+.restaurant-owner-bottom h4{
+    border-bottom: 2px solid #b6b6b669;
+    padding: 5px 0;
+    color: rgb(107, 107, 107);
+    text-align: center;
+}
+.statistics-item{
+    background-color: #ffff;
+    border-radius: 7px;
+    box-shadow: 2px 12px 40px -16px rgba(134, 134, 134, 0.655);
+    padding: 10px;
+    margin-right: 15px;
+}
+.pending-order{
+    border: 2px solid dodgerblue;
+}
+.all-orders{
+    border: 2px solid #ffbb00;
+}
+.approved-order{
+    border: 2px solid #0dee5f;
+}
+.rejected-orders{
+    border: 2px solid #e05f3f;
+}
+.item-title{
+    font-size: 18px;
+    color: rgb(150, 150, 150);
+}
+.statistics-value{
+    font-weight: 700;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-fill-color: #ffffff;
+}
